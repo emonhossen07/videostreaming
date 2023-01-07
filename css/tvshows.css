@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+============================
+ header section css start 
+============================
+*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+header .logo img {
+    height: 46px;
+    max-width: 100%;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    list-style-type: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    flex: auto;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 25px;
+    padding: 25px 0;
+    text-decoration: none;
+    transition: .6s;
+}
+header nav ul li a:hover {
+    color: #dc0000;
+}
+header .header-icon {
+    display: flex;
+    height: 40px;
+}
+header .header-icon a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+header .header-icon span {
+    margin: 0 15px;
+    padding: 15px 0;
+    color: #fff;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 36px;
+
+}
+/*
+============================
+ header section css end 
+============================
+*/
+
+
+/*
+============================
+ slider section css start 
+============================
+*/
+.container-tv-movies {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.597)), url(../img/page-header-bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    margin-top: -130px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+.container-tv-movies h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+.container-tv-movies h2 span {
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(255, 2, 2);
+}
+.container-tv-movies p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+
+
+/* Tv shows start here */
+.tv-shows-container{
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.tv-shows-container-content{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.tv-shows-container-content-post-one{
+    color: #ffffff;
+    padding: 20px;
+    height: 450px;
+    width: 300px;
+    background: linear-gradient(rgb(0, 0, 0,.0),rgb(0, 0, 0,1)),url('../img/tv-shows01.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.tv-shows-container-content-post-one h3{
+    font-weight: 400;
+    margin-left: 10px;
+}
+.tv-shows-container-content-post-one p{
+    margin-top: -35px;
+    margin-left: 45px;
+    font-size: 10px;
+}
+.play-btn{
+    color :#ffffff;
+}
+.tv-shows-container-content-post-two{
+    color: #ffffff;
+    padding: 20px;
+    height: 450px;
+    width: 300px;
+    background: linear-gradient(rgb(0, 0, 0,.0),rgb(0, 0, 0,1)),url('../img/tv-shows02.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.tv-shows-container-content-post-two h3{
+    font-weight: 400;
+    margin-left: 10px;
+}
+.tv-shows-container-content-post-two p{
+    margin-top: -35px;
+    margin-left: 45px;
+    font-size: 10px;
+}
+.tv-shows-container-content-post-three{
+    color: #ffffff;
+    padding: 20px;
+    height: 450px;
+    width: 300px;
+    background: linear-gradient(rgb(0, 0, 0,.0),rgb(0, 0, 0,1)),url('../img/tv-shows03.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tv-shows-container-content-post-three h3{
+    font-weight: 400;
+    margin-left: 10px;
+}
+.tv-shows-container-content-post-three p{
+    margin-top: -35px;
+    margin-left: 45px;
+    font-size: 10px;
+}
+.tv-shows-container-content-post-four{
+    color: #ffffff;
+    padding: 20px;
+    height: 450px;
+    width: 300px;
+    background: linear-gradient(rgb(0, 0, 0,.0),rgb(0, 0, 0,1)),url('../img/tv-shows04.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tv-shows-container-content-post-four h3{
+    font-weight: 400;
+    margin-left: 10px;
+}
+.tv-shows-container-content-post-four p{
+    margin-top: -35px;
+    margin-left: 45px;
+    font-size: 10px;
+}
+.tv{
+    margin-top: 330px;
+}
+.material-symbols-outlined{
+    font-size: 40px !important;
+}
+
+
+
+footer{
+    background-color: #0F0F0F;
+    color: white;
+    font-size: 20px;
+    
+    
+}
+
+/* footer container */
+
+.footer-container{
+    display: flex;
+    margin-right: 70px;
+    margin-left: 70px;
+    gap: 150px;
+    padding-top: 100px;
+}
+
+
+.footer-first-child {
+    flex: 2;
+}
+.footer-second-child {
+    flex: 1;
+}
+.footer-third-child {
+    flex: 1;
+}
+.footer-forth-child {
+    flex: 1;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+.footer-first-child .specify{
+    text-decoration: underline;
+}
+
+.footer-first-child p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* language part start */
+
+select{
+    background-color: transparent;
+    color: white;
+    border: 0px;
+}
+
+.language{
+    display: flex;
+    border: 1px solid rgb(51, 52, 44);
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+}
+.fa-thin fa-globe{
+    color: white !important;
+}
+.copyright {
+    background: #0F0F0F;
+    height: 80px;
+    display: flex;
+    padding-right: 70px;
+    padding-left: 70px;
+    justify-content: space-between;
+    border-top: 1px solid #080808;
+}
+.copyright p {
+    color: #fff;
+    line-height: 80px;
+    font-size: 14px;
+}
+
+/* language end */
